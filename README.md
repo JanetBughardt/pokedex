@@ -6,7 +6,6 @@ Ein interaktiver Pokédex, entwickelt mit HTML, CSS und JavaScript.
 
 👉 https://janetbughardt.github.io/pokedex/
 
-*(Falls GitHub Pages noch nicht aktiviert ist, kannst du den Link zunächst weglassen und später ergänzen.)*
 
 ## 📖 Projektbeschreibung
 
@@ -14,12 +13,12 @@ Dieses Projekt nutzt die offizielle PokéAPI, um Pokémon-Daten dynamisch abzuru
 
 ## ✨ Funktionen
 
-- Dynamisches Laden von Pokémon über die PokéAPI
-- Suchfunktion
+- Dynamisches Laden der Pokémon über die PokéAPI
+- Suchfunktion zum Filtern von Pokémon
 - Detailansicht im Overlay
-- Responsive Design für Desktop und Mobilgeräte
-- Dynamische Erstellung der Pokémon-Karten
-- Verarbeitung von JSON-Daten
+- Responsive Design
+- Dynamische Generierung der Pokémon-Karten
+- Verarbeitung von JSON-Daten mit der Fetch API
 
 ## 🛠️ Verwendete Technologien
 
