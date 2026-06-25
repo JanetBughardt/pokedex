@@ -32,7 +32,13 @@ Dieses Projekt nutzt die offizielle PokéAPI, um Pokémon-Daten dynamisch abzuru
 
 ## 📷 Screenshots
 
-*(Werden ergänzt.)*
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### Search Function
+
+![Search Function](screenshots/search-function.png)
 
 ## 🚀 Was ich bei diesem Projekt gelernt habe
 
