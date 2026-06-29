@@ -1,7 +1,6 @@
-function createOverlayHTML(pokemon, currentIndex) {
+ function createOverlayHTML(pokemon, currentIndex) {
     const tabHTML = createTabs();
     const infoContentHTML = createInfoContent(pokemon);
-    const statsHTML = createStatsContent(pokemon);
     const progressBarsHTML = pokemon.stats.map(stat => {
         const normalizedValue = Math.round((stat.base_stat / 255) * 100);
         return `
@@ -15,7 +14,7 @@ function createOverlayHTML(pokemon, currentIndex) {
 
     return `
         <span class="close-btn" onclick="closeOverlay()">&times;</span> 
-        <h2>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
+        <h2>${capitalizeFirstLetter(pokemon.name)}</h2>
         <img class="pokemon-img" src="${pokemon.sprites.other['official-artwork'].front_default}" alt="${pokemon.name}">
 
         ${tabHTML}
